@@ -2,12 +2,15 @@
 <html ng-app="toDoApp" lang="en">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-    <script type="text/javascript" src="app.js">
-
-    </script>
-    <title>toDoApp</title>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="../controllers/ToDoController.js"></script>
+    <title>Todos App</title>
   </head>
-  <body id="hello">
-    Hello World!
+
+  <body>
+    <div id="todo" ng-controller="ToDoController as controller">
+        {{ controller.todo }}
+    </div>
   </body>
+
 </html>

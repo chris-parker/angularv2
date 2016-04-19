@@ -3,12 +3,10 @@
   "description": "an app",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "https://github.com/yasgreen93/angular_with_tests",
+  "homepage": "https://github.com/Managram/angular_with_tests",
   "authors": [
     "Patrick <p_donati@hotmail.com>"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/Managram/angular_with_tests",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,5 +17,8 @@
   "dependencies": {
     "angular": "^1.5.5",
     "protractor": "^3.2.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.5"
   }
 }
