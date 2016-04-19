@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "an app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Managram/angular_with_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Managram/angular_with_tests/issues"
+  },
+  "homepage": "https://github.com/Managram/angular_with_tests#readme"
+}

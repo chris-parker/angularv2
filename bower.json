@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "description": "an app",
+  "main": "index.js",
+  "authors": [
+    "Patrick <p_donati@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Managram/angular_with_tests",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
