@@ -1,0 +1,22 @@
+{
+  "name": "angularv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-parker/angularv2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-parker/angularv2/issues"
+  },
+  "homepage": "https://github.com/chris-parker/angularv2#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}
