@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "ISC",
   "homepage": "https://github.com/yasgreen93/angular_with_tests",
+  "authors": [
+    "Patrick <p_donati@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Managram/angular_with_tests",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.5"
+    "angular": "^1.5.5",
+    "protractor": "^3.2.2"
   }
 }
