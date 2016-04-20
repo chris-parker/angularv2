@@ -6,10 +6,12 @@ describe('Todos tracker', function() {
   });
 
   describe('Todos tracker', function() {
-    it('has a todo', function() {
+
+    it('has two todos', function() {
       browser.get('/app');
-      var todo = $('#todo');
-      expect(todo.getText()).toEqual('ToDo1');
+      var todos = $$('#todo p');
+      expect(todos.first().getText()).toEqual('ToDo1: completed');
+      expect(todos.last().getText()).toEqual('ToDo2: not completed');
     });
   });
 });
