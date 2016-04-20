@@ -4,13 +4,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="controllers/ToDoController.js"></script>
+    <script type="text/javascript" src="factories/ToDoFactory.js"></script>
     <title>Todos App</title>
   </head>
 
   <body>
-    <div id="todo" ng-controller="ToDoController as controller">
+    <div id="todos" ng-controller="ToDoController as controller">
       <p ng-repeat="todo in controller.todos">
-        {{ todo.task }}: {{ todo.completed ? "completed" : "not completed" }}
+        {{ todo.text }}: {{ todo.completed ? "completed" : "not completed" }}
+        <span class="complete" ng-click="todo.complete()">Complete</span>
       </p>
       <input type="text" ng-model="toDoText" id="addToDo">
       <button ng-click="controller.addToDo(toDoText)" id="add">Add a ToDo</button>
